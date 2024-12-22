@@ -1,4 +1,4 @@
-package com.pedidos.pedidos_produtos.models.fonecedor;
+package com.pedidos.pedidos_produtos.models.fornecedor;
 
 import jakarta.persistence.*;
 import lombok.Data;
