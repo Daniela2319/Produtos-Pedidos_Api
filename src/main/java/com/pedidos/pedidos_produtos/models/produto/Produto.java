@@ -1,6 +1,6 @@
 package com.pedidos.pedidos_produtos.models.produto;
 
-import com.pedidos.pedidos_produtos.models.fornecedor.Forncedor;
+import com.pedidos.pedidos_produtos.models.fornecedor.Fornecedor;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,5 +15,5 @@ public class Produto {
     private Double valor;
     @ManyToOne
     @JoinColumn(name = "idfornecedor", unique = true)
-    private Forncedor idFornecedor;
+    private Fornecedor idFornecedor;
 }
